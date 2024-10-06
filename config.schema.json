@@ -1,0 +1,17 @@
+{
+  "pluginAlias": "HomebridgeAI2.0",
+"headerDisplay": "Welcome to HomebridgeAI2.0. Control your smart home using AI!",
+  "pluginType": "platform",
+  "singular": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "title": "OpenAI API Key",
+        "type": "string",
+        "required": true,
+        "default": "Enter your OpenAI API Key"
+      }
+    }
+  }
+}
